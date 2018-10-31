@@ -1,0 +1,425 @@
+media_player.kramkastaren:
+  config_entry_id: ce3a2932a46e42f6a1fb3244b8c5183e
+  name:
+  platform: cast
+  unique_id: 08b32ab5-f398-b7dc-03e9-bb3b7ae1ef6f
+light.sovrum_fonster:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e153d520440005f-65547
+light.tv_lampa:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e153d520440005f-65544
+light.sovrum_herman:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e153d520440005f-65546
+light.koks_lampa:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e153d520440005f-65545
+light.bumbibjornarna:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: group-7e153d520440005f-161663
+media_player.plex_web_chrome:
+  config_entry_id:
+  name:
+  platform: plex
+  unique_id: xn2oa2zfiurz07vp7bl0lfzf
+media_player.chromecast_vardagsrum:
+  config_entry_id: ce3a2932a46e42f6a1fb3244b8c5183e
+  name:
+  platform: cast
+  unique_id: 520204b4-68a0-2f94-6f87-238aa8237d51
+zwave.aeotec_zw090_zstick_gen5_eu:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-1
+zwave.qubino_zmnhbdx_flush_2_relays:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-3
+zwave.qubino_zmnhbdx_flush_2_relays_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-4
+zwave.qubino_zmnhbdx_flush_2_relays_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-5
+zwave.qubino_zmnhbdx_flush_2_relays_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-6
+switch.qubino_zmnhbdx_flush_2_relays_switch:
+  config_entry_id:
+  name: Förråd tak
+  platform: zwave
+  unique_id: 3-144115188130988032
+switch.qubino_zmnhbdx_flush_2_relays_switch_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-216172782168915968
+switch.qubino_zmnhbdx_flush_2_relays_switch_3:
+  config_entry_id:
+  name: Tak baksida
+  platform: zwave
+  unique_id: 4-144115188147765248
+switch.qubino_zmnhbdx_flush_2_relays_switch_4:
+  config_entry_id:
+  name: Soldäck
+  platform: zwave
+  unique_id: 4-216172782185693184
+switch.qubino_zmnhbdx_flush_2_relays_switch_5:
+  config_entry_id:
+  name: Tak framsida
+  platform: zwave
+  unique_id: 5-144115188164542464
+switch.qubino_zmnhbdx_flush_2_relays_switch_6:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-216172782202470400
+switch.qubino_zmnhbdx_flush_2_relays_switch_7:
+  config_entry_id:
+  name: Pollare
+  platform: zwave
+  unique_id: 6-144115188181319680
+switch.qubino_zmnhbdx_flush_2_relays_switch_8:
+  config_entry_id:
+  name: Växthus
+  platform: zwave
+  unique_id: 6-216172782219247616
+sensor.qubino_zmnhbdx_flush_2_relays_power:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273218
+sensor.qubino_zmnhbdx_flush_2_relays_power_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-144115188131201154
+sensor.qubino_zmnhbdx_flush_2_relays_power_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-216172782169129090
+switch.qubino_zmnhbdx_flush_2_relays_switch_9:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093060096
+sensor.qubino_zmnhbdx_flush_2_relays_energy:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273090
+sensor.qubino_zmnhbdx_flush_2_relays_energy_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-144115188131201026
+sensor.qubino_zmnhbdx_flush_2_relays_energy_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-216172782169128962
+sensor.qubino_zmnhbdx_flush_2_relays_power_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110050434
+sensor.qubino_zmnhbdx_flush_2_relays_power_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-144115188147978370
+sensor.qubino_zmnhbdx_flush_2_relays_power_6:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-216172782185906306
+switch.qubino_zmnhbdx_flush_2_relays_switch_10:
+  config_entry_id:
+  name: Soldäck tak golv
+  platform: zwave
+  unique_id: 4-72057594109837312
+sensor.qubino_zmnhbdx_flush_2_relays_energy_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110050306
+sensor.qubino_zmnhbdx_flush_2_relays_energy_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-144115188147978242
+sensor.qubino_zmnhbdx_flush_2_relays_energy_6:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-216172782185906178
+switch.qubino_zmnhbdx_flush_2_relays_switch_11:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126614528
+sensor.qubino_zmnhbdx_flush_2_relays_energy_7:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126827522
+sensor.qubino_zmnhbdx_flush_2_relays_power_7:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126827650
+sensor.qubino_zmnhbdx_flush_2_relays_power_8:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-144115188164755586
+sensor.qubino_zmnhbdx_flush_2_relays_power_9:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-216172782202683522
+sensor.qubino_zmnhbdx_flush_2_relays_energy_8:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-144115188164755458
+sensor.qubino_zmnhbdx_flush_2_relays_energy_9:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-216172782202683394
+switch.qubino_zmnhbdx_flush_2_relays_switch_12:
+  config_entry_id:
+  name: Växthus pollare
+  platform: zwave
+  unique_id: 6-72057594143391744
+sensor.qubino_zmnhbdx_flush_2_relays_energy_10:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143604738
+sensor.qubino_zmnhbdx_flush_2_relays_power_10:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143604866
+sensor.qubino_zmnhbdx_flush_2_relays_power_11:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-144115188181532802
+sensor.qubino_zmnhbdx_flush_2_relays_energy_11:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-144115188181532674
+sensor.qubino_zmnhbdx_flush_2_relays_previous_reading:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273106
+sensor.qubino_zmnhbdx_flush_2_relays_previous_reading_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-144115188131201042
+sensor.qubino_zmnhbdx_flush_2_relays_previous_reading_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-216172782169128978
+sensor.qubino_zmnhbdx_flush_2_relays_previous_reading_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110050322
+sensor.qubino_zmnhbdx_flush_2_relays_previous_reading_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-144115188147978258
+sensor.qubino_zmnhbdx_flush_2_relays_previous_reading_6:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-216172782185906194
+sensor.qubino_zmnhbdx_flush_2_relays_previous_reading_7:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126827538
+sensor.qubino_zmnhbdx_flush_2_relays_previous_reading_8:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-144115188164755474
+sensor.qubino_zmnhbdx_flush_2_relays_previous_reading_9:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-216172782202683410
+sensor.qubino_zmnhbdx_flush_2_relays_previous_reading_10:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143604754
+sensor.qubino_zmnhbdx_flush_2_relays_previous_reading_11:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-216172782219460626
+sensor.qubino_zmnhbdx_flush_2_relays_previous_reading_12:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-144115188181532690
+light.light_3:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name: Slinga hall
+  platform: deconz
+  unique_id: 84:18:26:00:00:0c:2c:12-03
+light.light_1:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name: Lilla rummet
+  platform: deconz
+  unique_id: 00:0b:57:ff:fe:30:fd:0b-01
+light.light_4:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name: Köksfönster
+  platform: deconz
+  unique_id: 00:0b:57:ff:fe:bc:db:01-01
+light.light_2:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name: Lampa tv
+  platform: deconz
+  unique_id: 00:0b:57:ff:fe:eb:6d:fe-01
+light.light_6:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name: Soffa tv
+  platform: deconz
+  unique_id: 00:0b:57:ff:fe:4a:05:94-01
+light.light_5:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name: Fönster tv
+  platform: deconz
+  unique_id: 00:0b:57:ff:fe:e7:85:89-01
+sensor.qubino_zmnhbdx_flush_2_relays_energy_12:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-216172782219460610
+sensor.qubino_zmnhbdx_flush_2_relays_power_12:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-216172782219460738
+sensor.inomhus:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name:
+  platform: deconz
+  unique_id: 00:15:8d:00:01:c2:af:72-01-0402
+sensor.uterum:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name:
+  platform: deconz
+  unique_id: 00:15:8d:00:01:f5:7f:1c-01-0405
+sensor.matkallare:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name:
+  platform: deconz
+  unique_id: 00:15:8d:00:01:fa:3c:49-01-0405
+sensor.matkallare_2:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name:
+  platform: deconz
+  unique_id: 00:15:8d:00:01:fa:3c:49-01-0402
+sensor.inomhus_2:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name:
+  platform: deconz
+  unique_id: 00:15:8d:00:01:c2:af:72-01-0405
+sensor.uterum_2:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name:
+  platform: deconz
+  unique_id: 00:15:8d:00:01:f5:7f:1c-01-0402
+media_player.chromecastkallaren:
+  config_entry_id: ce3a2932a46e42f6a1fb3244b8c5183e
+  name:
+  platform: cast
+  unique_id: a0c9e17e-df7a-5c27-0074-128963fcd792
+sensor.pollarevaxthus_previous_reading:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-216172782219460754
+sensor.forrad_previous_reading:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-216172782169129106
+sensor.pollarevaxthus_previous_reading_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-144115188181532818
+light.light_7:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name:
+  platform: deconz
+  unique_id: 00:0b:57:ff:fe:39:60:79-01
+sensor.forrad:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name:
+  platform: deconz
+  unique_id: 00:15:8d:00:02:01:92:db-01-0402
+sensor.forrad_2:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name:
+  platform: deconz
+  unique_id: 00:15:8d:00:02:01:92:db-01-0405
+light.star2:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name:
+  platform: deconz
+  unique_id: 00:0b:57:ff:fe:e7:3c:72-01
+light.star1:
+  config_entry_id: 88a83d8811b644e5befcda2cc02b27ea
+  name:
+  platform: deconz
+  unique_id: 00:0b:57:ff:fe:ea:df:ce-01
+sensor.forrad_previous_reading_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-144115188131201170
+sensor.pers_iphone_battery_level:
+  config_entry_id:
+  name:
+  platform: ios
+  unique_id: level_pers_iphone
+sensor.pers_iphone_battery_state:
+  config_entry_id:
+  name:
+  platform: ios
+  unique_id: state_pers_iphone

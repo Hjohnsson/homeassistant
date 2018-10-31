@@ -1,0 +1,68 @@
+default_view:
+  view: yes
+  icon: mdi:home
+  entities:
+    - group.innebelysning
+    - group.ytterbelysning
+    - group.sensors
+
+lights:
+  name: Lampor
+  view: yes
+  icon: mdi:lightbulb-on
+  entities:
+    - group.innebelysning
+    - group.ytterbelysning
+
+innebelysning:
+  name: Innebelysning
+  view: no
+  entities:
+    - light.light_1
+    - light.light_2
+    - light.light_3
+    - light.light_4
+    - light.light_5
+    - light.light_6
+    - light.star1
+    - light.star2
+
+ytterbelysning:
+  name: Ytterbelysning
+  view: no
+  entities:
+    - switch.qubino_zmnhbdx_flush_2_relays_switch
+    - switch.qubino_zmnhbdx_flush_2_relays_switch_3
+    - switch.qubino_zmnhbdx_flush_2_relays_switch_4
+    - switch.qubino_zmnhbdx_flush_2_relays_switch_5
+    - switch.qubino_zmnhbdx_flush_2_relays_switch_7
+    - switch.qubino_zmnhbdx_flush_2_relays_switch_8
+
+timed_lights:
+  name: Timed lights
+  entities:
+    - light.light_1
+    - light.light_3
+    - light.light_4
+    - light.light_5
+
+sensors:
+  name: Sensorer
+  view: yes
+  icon: mdi:temperature-celsius
+  entities:
+    - sensor.weather_temperature
+    - sensor.inomhus
+    - sensor.inomhus_2
+    - sensor.uterum_2
+    - sensor.uterum
+    - sensor.matkallare_2
+    - sensor.matkallare
+    - sensor.forrad
+    - sensor.forrad_2
+    - sensor.weather_symbol
+    - sensor.weather_precipitation
+    - sun.sun
+    - sensor.solar_angle
+    - sensor.sun_setting
+    - sensor.sun_rising

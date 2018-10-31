@@ -1,0 +1,20 @@
+group.lights:
+  hidden: false
+
+group.innebelysning:
+  hidden: false
+
+group.ytterbelysning:
+  hidden: false
+
+group.sensors:
+  hidden: false
+
+sensor.weather_temperature:
+  friendly_name: Ute temperatur
+
+sensor.weather_symbol:
+  friendly_name: Väder
+
+sensor.weather_precipitation:
+  friendly_name: Regn prognos

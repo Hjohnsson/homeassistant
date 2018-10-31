@@ -1,0 +1,34 @@
+- alias: Turn a few lights on when the sun gets dim
+  trigger:
+    platform: numeric_state
+    entity_id: sun.sun
+    value_template: '{{ state.attributes.elevation }}'
+    below: 1.5
+  action:
+    service: scene.turn_on
+    entity_id: scene.background_lights
+  id: 52999b78a18a4e32890a93837b53cbf9
+- alias: Turn on outside lights when sun gets dim
+  trigger:
+    platform: numeric_state
+    entity_id: sun.sun
+    value_template: '{{ state.attributes.elevation }}'
+    below: 0.0
+  action:
+    service: scene.turn_on
+    entity_id: scene.outside_lights
+  id: 35e4cfd4dd1145ada793a9af55001d5c
+- id: c5e7292dfc22457ba12b604e1d838085
+  alias: Turn off all lights at night
+  trigger:
+  - at: '22:30'
+    platform: time
+  action:
+  - data:
+      entity_id: group.innebelysning
+    entity_id: group.innebelysning
+    service: homeassistant.turn_off
+  - data:
+      entity_id: group.ytterbelysning
+    entity_id: group.ytterbelysning
+    service: homeassistant.turn_off
